@@ -27,20 +27,50 @@ deporte(tenis).
 deporte(alterofilia).
 
 /** 
+Sintomas 
+*/
+sintoma(debilidad).
+sintoma(sed).
+sintoma(hambre).
+sintoma(entumcimiento).
+sintoma(problemas de vision).
+sintoma(fatiga).
+sintoma(arritmia).
+sintoma(falta de aliento).
+sintoma(hinchazon).
+sintoma(inflamacion).
+sintoma(dolor).
+sintoma(ardor).
+sintoma(dificultad de movimiento).
+sintoma(rigidez).
+sintoma(sensibilidad).
+sintoma(dolor de articulaciones).
+sintoma(perdida motora).
+sintoma(cansancio).
+sintoma(ronquidos).
+sintoma(sudor).
+sintoma(tristeza).
+sintoma(falta de motivacion).
+sintoma(falta de apetito).
+sintoma(dificultad al respirar).
+sintoma()
+
+
+/** 
 Padecimientos
-(padecimiento, sintoma 1, sintoma 2, sintoma 3, sintoma 4, sintoma 5)
  */
+
+diabetes(A, B, C, D, F) :- 
 
 padecimiento(diabetes, debilidad, sed, hambre, entumcimiento, problemas de vision).
 padecimiento(cardiopatia, fatiga, debilidad, arritmia, falta de aliento, hinchazon).
 padecimiento(hernia, inflamacion, hinchazon, dolor, ardor, dificultad de movimiento).
 padecimiento(tendinitis, dolor, hinchazon, rigidez, sensibilidad, dolor de articulaciones).
 padecimiento(artritis, dolor, hinchazon, rigidez, fatiga, perdida motora).
-padecimiento(obesidad, fatiga, cansancio, dolor de articulaciones, ronquido, problemas de movimiento).
-padecimiento(sobrepeso, fatiga, cansancio, dolor de articulaciones, ronquido, sudor).
+padecimiento(obesidad, fatiga, cansancio, dolor de articulaciones, ronquidos, dificultad de movimiento).
+padecimiento(sobrepeso, fatiga, cansancio, dolor de articulaciones, ronquidos, sudor).
 padecimiento(depresion, fatiga, cansancio, tristeza, falta de motivacion, falta de apetito).
-padecimiento(asma, cansancio, fatiga, falta de aliento, dificultad al respirar, ronquido).
-padecimiento(cancer, muerte).
+padecimiento(asma, cansancio, fatiga, falta de aliento, dificultad al respirar, ronquidos).
 
 /** 
 Niveles 
