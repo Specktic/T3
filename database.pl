@@ -7,24 +7,16 @@ deporte('ciclismo').
 deporte('natacion').
 deporte('danza').
 deporte('yoga').
-deporte('eliptica').
-deporte('pesas').
-deporte('salto de cuerda').
-deporte('pesas').
 deporte('escalada').
-deporte('caminata').
 deporte('alpinismo').
 deporte('gimnasia').
 deporte('patinaje').
-deporte('patinaje en hielo').
 deporte('futbol').
-deporte('futbol americano').
 deporte('basketball').
 deporte('baseball').
 deporte('rugby').
 deporte('badminton').
 deporte('tenis').
-deporte('alterofilia').
 
 /** 
 Padecimientos
@@ -46,23 +38,71 @@ Niveles
 (nivel, frecuencia semanal, tiempo, calorias)
 */
 nivel('principiante').
-nivel('incial').
 nivel('intermedio').
 nivel('avanzado').
-nivel('competitivo').
 
 /** 
 Rutinas 
 */
-rutina() :-
-            
-rutina().
-rutina().
-rutina().
-rutina().
-rutina().
-rutina().
-rutina().
-rutina().
-rutina().
+
+rutina('atletismo', 'principiante').
+rutina('atletismo', 'intermedio').
+rutina('atletismo', 'avanzado').
+
+rutina('ciclismo', 'principiante').
+rutina('ciclismo', 'intermedio').
+rutina('ciclismo', 'avanzado').
+
+rutina('natacion', 'principiante').
+rutina('natacion', 'intermedio').
+rutina('natacion', 'avanzado').
+
+rutina('danza', 'principiante').
+rutina('danza', 'intermedio').
+rutina('danza', 'avanzado').
+
+rutina('yoga', 'principiante').
+rutina('yoga', 'intermedio').
+rutina('yoga', 'avanzado').
+
+rutina('escalada', 'principiante').
+rutina('escalada', 'intermedio').
+rutina('escalada', 'avanzado').
+
+rutina('alpinismo', 'principiante').
+rutina('alpinismo', 'intermedio').
+rutina('alpinismo', 'avanzado').
+
+rutina('gimnasia', 'principiante').
+rutina('gimnasia', 'intermedio').
+rutina('gimnasia', 'avanzado').
+
+rutina('patinaje', 'principiante').
+rutina('patinaje', 'intermedio').
+rutina('patinaje', 'avanzado').
+
+rutina('futbol', 'principiante').
+rutina('futbol', 'intermedio').
+rutina('futbol', 'avanzado').
+
+rutina('basketball', 'principiante').
+rutina('basketball', 'intermedio').
+rutina('basketball', 'avanzado').
+
+rutina('baseball', 'principiante').
+rutina('baseball', 'intermedio').
+rutina('baseball', 'avanzado').
+
+rutina('rugby', 'principiante').
+rutina('rugby', 'intermedio').
+rutina('rugby', 'avanzado').
+
+rutina('badminton', 'principiante').
+rutina('badminton', 'intermedio').
+rutina('badminton', 'avanzado').
+
+rutina('tenis', 'principiante').
+rutina('tenis', 'intermedio').
+rutina('tenis', 'avanzado').
+
 
