@@ -69,14 +69,14 @@ rutina('ciclismo', 'avanzado',
 
 /** rutinas natacion */
 rutina('natacion', 'principiante',
-        '',
-        '',
+        'calentamiento 300m, estilo 200m, tecnica 600m, afloje 200m',
+        'calentamiento 400m, fondo 1000m, velocidad 200m afloje 100m',
         '',
         '').
 rutina('natacion', 'intermedio',
-        '',
-        '',
-        '',
+        'calentamiento 300m, estilo 200m, tecnica 600m, afloje 200m',
+        'calentamiento 400m, fondo 1000m, velocidad 200m afloje 100m',
+        'calentamiento 300m, estilo 400m, velocidad 200m, fondo 500m',
         '').
 rutina('natacion', 'avanzado',
         'calentamiento 300m, estilo 200m, tecnica 600m, afloje 200m',
@@ -88,34 +88,34 @@ rutina('natacion', 'avanzado',
 /** rutinas escalada */
 rutina('escalada', 'principiante',
         'calentamiento 10 min, tecnica 40 min, resistencia 40 min',
-        '',
+        'calentamiento 15 min, entrenamiento de fuerza 30 min, estiramiento 15 min',
         '',
         '').
 rutina('escalada', 'intermedio',
-        '',
-        '',
-        '',
+        'calentamiento 10 min, tecnica 40 min, resistencia 40 min',
+        'calentamiento 15 min, entrenamiento de fuerza 30 min, estiramiento 15 min',
+        'calentamiento 15 min, entrenamiento de fuerza 20 min, entrenamiento velocidad 15 min, estriamiento 10 min',
         '').
 rutina('escalada', 'avanzado',
-        'calentamiento 15 min, ',
-        '',
-        '',
-        '').
+        'calentamiento 10 min, tecnica 40 min, resistencia 40 min',
+        'calentamiento 15 min, entrenamiento de fuerza 30 min, estiramiento 15 min',
+        'calentamiento 15 min, entrenamiento de fuerza 20 min, entrenamiento velocidad 15 min, estriamiento 10 min',
+        'recuperacion 60 min, tecnica 40 min, estirmiento 15 min').
 
 
 /** rutinas futbol */
 rutina('futbol', 'principiante',
-        '',
-        '',
+        'calentamiento 10 min, HIIT 40 min, entrenamiento de core 10 min',
+        'calentamiento 10 min, entrenamiento velocidad 20 min, entrenamiento agilidad 30 min',
         '',
         '').
 rutina('futbol', 'intermedio',
-        '',
-        '',
-        '',
+        'calentamiento 10 min, HIIT 40 min, entrenamiento de core 10 min',
+        'calentamiento 10 min, entrenamiento velocidad 20 min, entrenamiento agilidad 30 min',
+        'trote en zona 2 40 min, recuperacion 40 min, estiramiento 10 min',
         '').
 rutina('futbol', 'avanzado',
-        '',
-        '',
-        '',
-        '').
+        'calentamiento 10 min, HIIT 40 min, entrenamiento de core 10 min',
+        'calentamiento 10 min, entrenamiento velocidad 20 min, entrenamiento agilidad 30 min',
+        'trote en zona 2 40 min, recuperacion 40 min, estiramiento 10 min',
+        'estudio estrategico 20 min, meditacion 20 min, actividad fisica ligera 60 min').
