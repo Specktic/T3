@@ -24,13 +24,8 @@ Padecimientos
 
 padecimiento('diabetes')
 padecimiento('cardiopatia')
-padecimiento('hernia')
 padecimiento('tendinitis')
-padecimiento('artritis')
-padecimiento('obesidad')
 padecimiento('sobrepeso')
-padecimiento('depresion')
-padecimiento('ansiedad')
 padecimiento('asma')
 
 /** 
