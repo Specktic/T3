@@ -5,18 +5,8 @@ Deportes
 deporte('atletismo').
 deporte('ciclismo').
 deporte('natacion').
-deporte('danza').
-deporte('yoga').
 deporte('escalada').
-deporte('alpinismo').
-deporte('gimnasia').
-deporte('patinaje').
 deporte('futbol').
-deporte('basketball').
-deporte('baseball').
-deporte('rugby').
-deporte('badminton').
-deporte('tenis').
 
 /** 
 Padecimientos
@@ -37,67 +27,95 @@ nivel('intermedio').
 nivel('avanzado').
 
 /** 
-Rutinas 
+Rutinas
+(deporte, nivel, rutinas por dia n,..)
 */
 
-rutina('atletismo', 'principiante').
-rutina('atletismo', 'intermedio').
-rutina('atletismo', 'avanzado').
-
-rutina('ciclismo', 'principiante').
-rutina('ciclismo', 'intermedio').
-rutina('ciclismo', 'avanzado').
-
-rutina('natacion', 'principiante').
-rutina('natacion', 'intermedio').
-rutina('natacion', 'avanzado').
-
-rutina('danza', 'principiante').
-rutina('danza', 'intermedio').
-rutina('danza', 'avanzado').
-
-rutina('yoga', 'principiante').
-rutina('yoga', 'intermedio').
-rutina('yoga', 'avanzado').
-
-rutina('escalada', 'principiante').
-rutina('escalada', 'intermedio').
-rutina('escalada', 'avanzado').
-
-rutina('alpinismo', 'principiante').
-rutina('alpinismo', 'intermedio').
-rutina('alpinismo', 'avanzado').
-
-rutina('gimnasia', 'principiante').
-rutina('gimnasia', 'intermedio').
-rutina('gimnasia', 'avanzado').
-
-rutina('patinaje', 'principiante').
-rutina('patinaje', 'intermedio').
-rutina('patinaje', 'avanzado').
-
-rutina('futbol', 'principiante').
-rutina('futbol', 'intermedio').
-rutina('futbol', 'avanzado').
-
-rutina('basketball', 'principiante').
-rutina('basketball', 'intermedio').
-rutina('basketball', 'avanzado').
-
-rutina('baseball', 'principiante').
-rutina('baseball', 'intermedio').
-rutina('baseball', 'avanzado').
-
-rutina('rugby', 'principiante').
-rutina('rugby', 'intermedio').
-rutina('rugby', 'avanzado').
-
-rutina('badminton', 'principiante').
-rutina('badminton', 'intermedio').
-rutina('badminton', 'avanzado').
-
-rutina('tenis', 'principiante').
-rutina('tenis', 'intermedio').
-rutina('tenis', 'avanzado').
+/** rutinas atletismo */
+rutina('atletismo', 'principiante',
+        'calentamiento 10 min, estiramiento 10 min, entrenamiento intervalos 20 min',
+        'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
+        '',
+        '').
+rutina('atletismo', 'intermedio',
+        'calentamiento 10 min, estiramiento 10 min, entrenamiento intervalos 20 min',
+        'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
+        'calentamiento 10 minu, trote en zona 3 30 min, estiramiento 10 min',
+        '').
+rutina('atletismo', 'avanzado',
+        'calentamiento 10 min, estiramiento 10 min, entrenamiento intervalos 20 min',
+        'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
+        'calentamiento 10 min, trote en zona 3 30 min, estiramiento 10 min',
+        'trote en zona 2 45-60 min, estiramiento 10 min').
 
 
+/** rutinas ciclismo */
+rutina('ciclismo', 'principiante',
+        'calentamiento 10 min, entrenamiento intervalos 20 min, estiramiento 10 min',
+        'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
+        '',
+        '').
+rutina('ciclismo', 'intermedio',
+        'calentamiento 10 min, entrenamiento intervalos 20 min, estiramiento 10 min',
+        'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
+        'viaje en zona 3 40-50 min, estiramiento 10 min',
+        '').
+rutina('ciclismo', 'avanzado',
+        'calentamiento 10 min, entrenamiento intervalos 20 min, estiramiento 10 min',
+        'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
+        'viaje en zona 3 40-50 min, estiramiento 10 min',
+        'viaje en zona 2 120 min, afloje 10 min').
+
+
+/** rutinas natacion */
+rutina('natacion', 'principiante',
+        '',
+        '',
+        '',
+        '').
+rutina('natacion', 'intermedio',
+        '',
+        '',
+        '',
+        '').
+rutina('natacion', 'avanzado',
+        'calentamiento 300m, estilo 200m, tecnica 600m, afloje 200m',
+        'calentamiento 400m, fondo 1000m, velocidad 200m afloje 100m',
+        'calentamiento 300m, estilo 400m, velocidad 200m, fondo 500m',
+        'calentamiento 400m, tecnica 600m, velocidad 200m, afloje 200m').
+
+
+/** rutinas escalada */
+rutina('escalada', 'principiante',
+        'calentamiento 10 min, tecnica 40 min, resistencia 40 min',
+        '',
+        '',
+        '').
+rutina('escalada', 'intermedio',
+        '',
+        '',
+        '',
+        '').
+rutina('escalada', 'avanzado',
+        'calentamiento 15 min, ',
+        '',
+        '',
+        '').
+
+
+/** rutinas futbol */
+rutina('futbol', 'principiante',
+        '',
+        '',
+        '',
+        '').
+rutina('futbol', 'intermedio',
+        '',
+        '',
+        '',
+        '').
+rutina('futbol', 'avanzado',
+        '',
+        '',
+        '',
+        '').
