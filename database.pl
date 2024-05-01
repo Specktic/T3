@@ -38,22 +38,24 @@ padecimiento('artritis')
 padecimiento('obesidad')
 padecimiento('sobrepeso')
 padecimiento('depresion')
+padecimiento('ansiedad')
 padecimiento('asma')
 
 /** 
 Niveles 
 (nivel, frecuencia semanal, tiempo, calorias)
 */
-nivel('principiante', 2, 1, 200).
-nivel('incial', 2, 1, 300).
-nivel('intermedio', 3, 2, 800).
-nivel('avanzado', 4, 2, 1000).
-nivel('competitivo', 6, 3, 2000).
+nivel('principiante').
+nivel('incial').
+nivel('intermedio').
+nivel('avanzado').
+nivel('competitivo').
 
 /** 
 Rutinas 
 */
-rutina().
+rutina() :-
+            
 rutina().
 rutina().
 rutina().
