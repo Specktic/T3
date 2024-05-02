@@ -1,4 +1,3 @@
-/** :-consult(sintaxis). */
 :-consult(trainerDB).
 :-style_check(-singleton).
 
@@ -78,4 +77,4 @@ despedida():-
 	writeln('-----------------------------------------------------------------------------'), 
     fail.
 
-    
+/** BNF */
