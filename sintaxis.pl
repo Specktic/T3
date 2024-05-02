@@ -1,6 +1,3 @@
-:-consult(database).
-
-/** basado en sintaxis de Andrey  */
 
 %Puntuacion
 puntuacion-->[,];[].
