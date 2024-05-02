@@ -9,6 +9,14 @@ deporte('escalada').
 deporte('futbol').
 
 /** 
+Niveles 
+(nivel, frecuencia semanal, tiempo, calorias)
+*/
+nivel('principiante').
+nivel('intermedio').
+nivel('avanzado').
+
+/** 
 Padecimientos
  */
 
@@ -17,14 +25,6 @@ padecimiento('cardiopatia')
 padecimiento('tendinitis')
 padecimiento('sobrepeso')
 padecimiento('asma')
-
-/** 
-Niveles 
-(nivel, frecuencia semanal, tiempo, calorias)
-*/
-nivel('principiante').
-nivel('intermedio').
-nivel('avanzado').
 
 /** 
 Rutinas
