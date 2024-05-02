@@ -21,8 +21,8 @@ start() :-
     validar_nivel(Nivel),
     nl,
 
-    write('Indique que padecimiento sufre usted'), nl,
-    write('En caso de no sufri de ningun padecimeinto escriba "no"'), nl, nl,
+    write('Indique de que padecimiento sufre'), nl,
+    write('En caso de no sufrir de ningun padecimeinto escriba ninguno'), nl, nl,
 
     read(Padecimiento),
     validar_padecimiento(Padecimiento),
@@ -30,7 +30,8 @@ start() :-
 
     write('Perfecto, considerando sus condiciones te recomendamos la siguiente rutina'), nl, nl,
 
-    write('suicidese'), nl,
+    encontrar_rutina(Deporte, Nivel), nl, nl,
+
     despedida().
 
 /** funciones auxiliares */
@@ -69,6 +70,17 @@ validar_padecimiento(Padecimiento):-
     error(),
     despedida().
 
+%Predicado para encontrar la informacion de una rutina
+conseguir_rutina(Deporte, Nivel, Detalle) :-
+    rutina(Deporte, Nivel, Detalle).
+
+%Determina la rutina dependiendo de las entradas anteriores por medio de backtracking
+encontrar_rutina(Deporte, Nivel):-
+    conseguir_rutina(Deporte, Nivel, Detalle),
+    write(Detalle), nl,
+    fail.
+encontrar_rutina(_,_). %Base
+
 %Se despide del usuario
 despedida():-
 	nl, nl,
@@ -78,3 +90,14 @@ despedida():-
     fail.
 
 /** BNF */
+
+% Predicado para buscar un deporte en una oración
+buscar_deporte_en_oracion(Oracion, Deporte) :-
+    split_string(Oracion, " ", "", Palabras), % Divide la oración en palabras
+    deporte(Deporte), % Deporte encontrado en la base de conocimiento
+    miembro(Deporte, Palabras). % Comprueba si el deporte está en la lista de palabras
+
+% Predicado para verificar si un elemento está en una lista
+miembro(Elemento, [Elemento|_]).
+miembro(Elemento, [_|Resto]) :-
+    miembro(Elemento, Resto).
