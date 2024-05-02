@@ -1,5 +1,7 @@
 :-consult(database).
 
+/** basado en sintaxis de Andr */
+
 %Puntuacion
 puntuacion-->[,];[].
 
@@ -31,3 +33,25 @@ verbo-->[manejo];[manejamos];[manejaremos].
 verbo-->[nado];[nadamos];[nadaremos].
 verbo-->[escalo];[escalamos];[escalaremos].
 verbo-->[juego];[jugamos];[jugaremos].
+
+%pronombres
+pronombres-->[].
+pronombres-->[yo].
+pronombres-->[nosotros].
+pronombres-->[el].
+pronombres-->[ella].
+pronombres-->[ellas].
+pronombres-->[ellos].
+pronombres-->[me].
+pronombres-->[se].
+pronombres-->[nos].
+pronombres-->[mi].
+
+%Adverbios 
+adverbio-->[si];[no];[ninguno];[ninguna];[tambien];[finalmente];[claro];[].
+
+%Conjunciones 
+conjuncion-->[que];[].
+
+%adjetivos
+adjetivos-->[principiante];[intermedio];[avanzado];[].
