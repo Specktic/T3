@@ -1,4 +1,5 @@
 :-consult(sintaxis).
+:-consult(funciones_de_lista).
 
 /** sistema experto */
 start() :-
@@ -28,6 +29,14 @@ error:-
 disciplina(deporte):-
     esperar_respuesta_valida(Y),
     encotrar_deporte(Y,deporte).
+
+encotrar_deporte(respuesta_usuario):-
+    es_deporte(respuesta_usuario).
+
+es_deporte(Input,deporte):-
+    miembro(deporte,Input),
+    deporte([deporte],[]).
+
 
 esperar_respuesta_valida(Respuesta):-
     respuesta_usuario(Respuesta).
