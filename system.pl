@@ -1,4 +1,5 @@
 :-consult(database).
+:-consult(database).
 
 /** sistema experto */
 start() :-
