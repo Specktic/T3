@@ -22,12 +22,12 @@ sustantivo-->[deporte];[].
 
 %Verbos
 verbo-->[].
-verbo-->[entrenar];[entreno];[entrenamos];[entrenaremos].
-verbo-->[ejercitar];[ejercito];[ejercitamos];[ejercitaremos].
-verbo-->[practicar];[practico];[practicamos];[practicaremos].
-verbo-->[correr];[corro];[corrimos];[correremos].
-verbo-->[andar];[ando];[anduvimos];[andare].
-verbo-->[manejar];[manejo];[manejamos];[manejaremos].
-verbo-->[nadar];[nado];[nadamos];[nadaremos].
-verbo-->[escalar];[escalo];[escalamos];[escalaremos].
-verbo-->[jugar];[juego];[jugamos];[jugaremos].
+verbo-->[entreno];[entrenamos];[entrenaremos].
+verbo-->[ejercito];[ejercitamos];[ejercitaremos].
+verbo-->[practico];[practicamos];[practicaremos].
+verbo-->[corro];[corrimos];[correremos].
+verbo-->[ando];[anduvimos];[andare].
+verbo-->[manejo];[manejamos];[manejaremos].
+verbo-->[nado];[nadamos];[nadaremos].
+verbo-->[escalo];[escalamos];[escalaremos].
+verbo-->[juego];[jugamos];[jugaremos].
