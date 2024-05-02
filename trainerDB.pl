@@ -1,36 +1,36 @@
 %Deportes
 
-deporte('atletismo').
-deporte('ciclismo').
-deporte('natacion').
-deporte('escalada').
-deporte('futbol').
+deporte(atletismo).
+deporte(ciclismo).
+deporte(natacion).
+deporte(escalada).
+deporte(futbol).
 
 %Niveles
-nivel('principiante').
-nivel('intermedio').
-nivel('avanzado').
+nivel(principiante).
+nivel(intermedio).
+nivel(avanzado).
 
 %Padecimientos
-padecimiento('diabetes')
-padecimiento('cardiopatia')
-padecimiento('tendinitis')
-padecimiento('sobrepeso')
-padecimiento('asma')
+padecimiento(diabetes).
+padecimiento(cardiopatia).
+padecimiento(tendinitis).
+padecimiento(sobrepeso).
+padecimiento(asma).
 
 %Rutinas
 /** rutinas atletismo */
-rutina('atletismo', 'principiante',
+rutina(atletismo, principiante,
         'calentamiento 10 min, estiramiento 10 min, entrenamiento intervalos 20 min',
         'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
         '',
         '').
-rutina('atletismo', 'intermedio',
+rutina(atletismo, intermedio,
         'calentamiento 10 min, estiramiento 10 min, entrenamiento intervalos 20 min',
         'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
         'calentamiento 10 minu, trote en zona 3 30 min, estiramiento 10 min',
         '').
-rutina('atletismo', 'avanzado',
+rutina(atletismo, avanzado,
         'calentamiento 10 min, estiramiento 10 min, entrenamiento intervalos 20 min',
         'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
         'calentamiento 10 min, trote en zona 3 30 min, estiramiento 10 min',
@@ -38,17 +38,17 @@ rutina('atletismo', 'avanzado',
 
 
 /** rutinas ciclismo */
-rutina('ciclismo', 'principiante',
+rutina(ciclismo, principiante,
         'calentamiento 10 min, entrenamiento intervalos 20 min, estiramiento 10 min',
         'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
         '',
         '').
-rutina('ciclismo', 'intermedio',
+rutina(ciclismo, intermedio,
         'calentamiento 10 min, entrenamiento intervalos 20 min, estiramiento 10 min',
         'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
         'viaje en zona 3 40-50 min, estiramiento 10 min',
         '').
-rutina('ciclismo', 'avanzado',
+rutina(ciclismo, avanzado,
         'calentamiento 10 min, entrenamiento intervalos 20 min, estiramiento 10 min',
         'calentamiento 10 min, entrenamiento de fuerza 30 min, estiramiento 10 min',
         'viaje en zona 3 40-50 min, estiramiento 10 min',
@@ -56,17 +56,17 @@ rutina('ciclismo', 'avanzado',
 
 
 /** rutinas natacion */
-rutina('natacion', 'principiante',
+rutina(natacion, principiante,
         'calentamiento 300m, estilo 200m, tecnica 600m, afloje 200m',
         'calentamiento 400m, fondo 1000m, velocidad 200m afloje 100m',
         '',
         '').
-rutina('natacion', 'intermedio',
+rutina(natacion, intermedio,
         'calentamiento 300m, estilo 200m, tecnica 600m, afloje 200m',
         'calentamiento 400m, fondo 1000m, velocidad 200m afloje 100m',
         'calentamiento 300m, estilo 400m, velocidad 200m, fondo 500m',
         '').
-rutina('natacion', 'avanzado',
+rutina(natacion, avanzado,
         'calentamiento 300m, estilo 200m, tecnica 600m, afloje 200m',
         'calentamiento 400m, fondo 1000m, velocidad 200m afloje 100m',
         'calentamiento 300m, estilo 400m, velocidad 200m, fondo 500m',
