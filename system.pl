@@ -6,17 +6,21 @@ start() :-
     write('Bienvendio a MrTrainer'), nl, nl,
 
     %Deporte
-    write('Que deporte le intereza practicar?'), nl,
+    write('Cual de los siguientes deportes te intereza practicar?'), nl,
+    write('1. atletismo'), nl,
+    write('2. ciclismo'), nl,
+    write('3. natacion'), nl,
+    write('4. escalada'), nl,
+    write('5. futbol'), nl,
     read(Deporte), nl,
-    write('Excelente, empecemos el proceso para tu rutina personal para '),
-    write(Deporte), nl, nl,
+    write('Excelente, empecemos el proceso para tu rutina personal'), nl, nl,
 
     %nivel
     write('Cual considera ustes que es su nivel?'), nl,
     write('1. principiante'), nl,
     write('2. intermedio'), nl,
     write('3. avanzado'), nl,
-    read(Nivel), nl,
+    read(Nivel), nl, nl,
 
     %padecimiento
     write('Sufre usted de alguno de los siguientes padecimientos?'), nl,
