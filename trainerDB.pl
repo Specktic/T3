@@ -17,6 +17,7 @@ padecimiento(cardiopatia).
 padecimiento(tendinitis).
 padecimiento(sobrepeso).
 padecimiento(asma).
+padecimiento(no).
 
 %Rutinas
 /** rutinas atletismo */
