@@ -7,7 +7,7 @@ start() :-
     write('Hola, bienvendio a MrTrainer'), nl, nl,
     write('Por favor indique cual deporte le intereza practicar'), nl,
 
-    validar_lugar(Lugar):- lugar(Lugar), !.
+    
     
     write('Excelente, empecemos el proceso para tu rutina personal de '), nl, nl,
 
@@ -23,5 +23,8 @@ start() :-
 %error
 error:-
     write('Lo siento, no entendi').
+
+validar_deporte(Deporte):- 
+    deporte(Deporte), !.
 
     
